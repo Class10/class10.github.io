@@ -201,6 +201,7 @@
         */
           payload.append('regions', JSON.stringify(regions));
           var json3 = {'regions':regions};
+          //var json3 = {'name':,'regions':regions};
           alert(JSON.stringify(json3));
 
 //
@@ -230,7 +231,7 @@
 
           xhr.open('POST', 'http://hm.er1.online/save-my-page.php');
           xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-          xhr.send('payload='+JSON.stringify(json3));
+          xhr.send('payload='+JSON.stringify(json3)+'&username=harsh');
 
       });
 
