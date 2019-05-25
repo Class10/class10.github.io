@@ -3970,7 +3970,7 @@ ul {
 }
 
 /* line 37, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_happy_client.scss */
-.happy_client .single_happy_client span {
+.happy_client .single_happy_client h3 {
   font-size: 60px;
   font-weight: 700;
   color: #fff;
@@ -3981,21 +3981,21 @@ ul {
 
 @media (max-width: 576px) {
   /* line 37, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_happy_client.scss */
-  .happy_client .single_happy_client span {
+  .happy_client .single_happy_client h3 {
     line-height: 67px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 37, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_happy_client.scss */
-  .happy_client .single_happy_client span {
+  .happy_client .single_happy_client h3 {
     line-height: 67px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 37, E:/170 Kanox Agency/170_Kanox_Agency_html/sass/_happy_client.scss */
-  .happy_client .single_happy_client span {
+  .happy_client .single_happy_client h3 {
     line-height: 67px;
   }
 }
